@@ -132,8 +132,8 @@ fn show(t: &Vec<Node>) {
 }
 
 fn main() {
-    let nums = include_str!("input18_test.txt").lines()
-    // let nums = include_str!("input18.txt").lines()
+    // let nums = include_str!("input18_test.txt").lines()
+    let nums = include_str!("input18.txt").lines()
             .map(|l| make_tree(l) )
             .collect::<Vec<_>>();
 
